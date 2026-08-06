@@ -21,7 +21,7 @@ sample: unique sample ID
 fastq_1: R1 FASTQ (.fq, .fastq, .fq.gz, .fastq.gz)  
 fastq_2: R2 FASTQ  
 host_id: Host reference ID  
-host_fasta: Host genome FASTA path (FASTA/FA/FNA suffixes, optionally gzip-compressed.)  
+host_fasta: Host genome FASTA path (.fasta/.fa/.fna suffixes, gzip-compressed files)  
 
 ### Commands
 ###### Read QC    
