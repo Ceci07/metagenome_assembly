@@ -132,6 +132,6 @@ SAMPLE.contigs.min1000.fa \
 ```
 
 ###### AI-assisted development disclosure
-Generative AI tools (OpenAI ChatGPT, GPT5.6-Sol model), was used to assist with initial code scaffolding, documentation drafting, English-language editing, and troubleshooting during development of this repository. Human maintainer selected the scientific methods and parameters, reviewed and revised all AI-assisted outputs, and are responsible for validation, software behavior, interpretation, and any remaining errors. AI tools are not authors or accountable contributors.
+Generative AI tool (OpenAI ChatGPT, GPT5.6-Sol model), was used to assist with initial code scaffolding, documentation drafting, English-language editing, and troubleshooting during development of this repository. Human maintainer selected the scientific methods and parameters, reviewed and revised all AI-assisted outputs, and are responsible for validation, software behavior, interpretation, and any remaining errors. AI tools are not authors or accountable contributors.
 
 
