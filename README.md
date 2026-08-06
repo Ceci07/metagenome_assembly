@@ -14,14 +14,14 @@ nextflow run main.nf \
 --outdir results 
 ```
 #### Sample sheet
-Relative paths to FASTQ samples and host reference FASTA are resolved in the sample sheet.  
-The pipeline accepts a comma-separated CSV supplied through --input.  
-Columns of tje sample sheet  
-sample: unique sample ID
-fastq_1: R1 FASTQ (.fq, .fastq, .fq.gz, .fastq.gz)
-fastq_2: R2 FASTQ
-host_id: Host reference ID
-host_fasta: Host genome FASTA path (FASTA/FA/FNA suffixes, optionally gzip-compressed.)
+Relative paths to FASTQ samples and host reference FASTA are resolved in the sample sheet.    
+The pipeline accepts a comma-separated CSV supplied through --input.    
+Columns of the sample sheet    
+sample: unique sample ID  
+fastq_1: R1 FASTQ (.fq, .fastq, .fq.gz, .fastq.gz)  
+fastq_2: R2 FASTQ  
+host_id: Host reference ID  
+host_fasta: Host genome FASTA path (FASTA/FA/FNA suffixes, optionally gzip-compressed.)  
 
 ### Commands
 Read QC  
