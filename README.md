@@ -131,6 +131,23 @@ SAMPLE.contigs.minLENGTH.fa \
 --output-dir SAMPLE.quast
 ```
 
+###### Citations
+If you use this workflow, plase cite the following tools appropiatly:  
+- fastp: https://github.com/OpenGene/fastp  
+- FastQC: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/  
+- Bowtie2: https://github.com/BenLangmead/bowtie2  
+- SAMtools: https://www.htslib.org/  
+- MEGAHIT: https://github.com/voutcn/megahit  
+- SeqKit: https://bioinf.shenwei.me/seqkit/  
+- QUAST: https://github.com/ablab/quast  
+- MultiQC: https://docs.seqera.io/multiqc
+- Nexflow: https://www.nextflow.io  
+- SingularityCE:  https://docs.sylabs.io
+- Apptainer: https://apptainer.org
+- StaPH-B container builds: https://github.com/StaPH-B/docker-builds
+- BioContainers: https://biocontainers.pro  
+
+
 ###### AI-assisted development disclosure
 Generative AI tool (OpenAI ChatGPT, GPT5.6-Sol model), was used to assist with initial code scaffolding, documentation drafting, English-language editing, and troubleshooting during development of this repository. Human maintainer selected the scientific methods and parameters, reviewed and revised all AI-assisted outputs, and are responsible for validation, software behavior, interpretation, and any remaining errors. AI tools are not authors or accountable contributors.
 
