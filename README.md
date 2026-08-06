@@ -147,7 +147,7 @@ If you use this pipeline, plase cite the following tools appropiatly:
 - StaPH-B container builds: https://github.com/StaPH-B/docker-builds
 - BioContainers: https://biocontainers.pro  
 
-This pipeline was used for the shotgun metagenomic data analisys of the Salazar C. et al (2026) manuscript: 
+This pipeline was used for the shotgun metagenomic data analysis of the Salazar C. et al (2026) manuscript: 
 
 ###### AI-assisted development disclosure
 Generative AI tool (OpenAI ChatGPT, GPT5.6-Sol model), was used to assist with initial code scaffolding, documentation drafting, English-language editing, and troubleshooting during development of this repository. Human maintainer selected the scientific methods and parameters, reviewed and revised all AI-assisted outputs, and are responsible for validation, software behavior, interpretation, and any remaining errors. AI tools are not authors or accountable contributors.
