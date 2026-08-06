@@ -15,7 +15,7 @@ nextflow run main.nf \
 ```
 #### Sample sheet
 Relative paths to FASTQ samples and host reference FASTA are resolved in the sample sheet.    
-The pipeline accepts a comma-separated CSV supplied through --input.    
+The workflow accepts a comma-separated CSV supplied through --input.    
 Columns of the sample sheet    
 sample: unique sample ID  
 fastq_1: R1 FASTQ (.fq, .fastq, .fq.gz, .fastq.gz)  
@@ -147,9 +147,9 @@ If you use this pipeline, plase cite the following tools appropiatly:
 - StaPH-B container builds: https://github.com/StaPH-B/docker-builds
 - BioContainers: https://biocontainers.pro  
 
-This pipeline was used for the shotgun metagenomic data analysis of the Salazar C. et al (2026) manuscript: 
+This workflow was used for the shotgun metagenomic data analysis of the Salazar C. et al (2026) manuscript: 
 
 ###### AI-assisted development disclosure
 Generative AI tool (OpenAI ChatGPT, GPT5.6-Sol model), was used to assist with initial code scaffolding, documentation drafting, English-language editing, and troubleshooting during development of this repository. Human maintainer selected the scientific methods and parameters, reviewed and revised all AI-assisted outputs, and are responsible for validation, software behavior, interpretation, and any remaining errors. AI tools are not authors or accountable contributors.
 
-## Disclaimer: This pipeline is provided “as is,” without warranties or guarantees of any kind. Users are responsible for reviewing, validating, and testing the workflow before using it for research or any other purpose.
+## Disclaimer: This workflow is provided “as is,” without warranties or guarantees of any kind. Users are responsible for reviewing, validating, and testing the workflow before using it for research or any other purpose.
