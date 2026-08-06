@@ -24,20 +24,20 @@ host_id: Host reference ID
 host_fasta: Host genome FASTA path (FASTA/FA/FNA suffixes, optionally gzip-compressed.)  
 
 ### Commands
-Read QC  
-Tool and container  
-Tool: FastQC 0.12.1  
-Container parameter: container_fastqc  
-Default image: docker://staphb/fastqc:0.12.1 
+###### Read QC    
+Tool and container    
+Tool: FastQC 0.12.1    
+Container parameter: container_fastqc    
+Default image: docker://staphb/fastqc:0.12.1   
 
 ```
 fastqc --quiet --threads <cpus> R1.fastq.gz R2.fastq.gz
 ```
 
-Read filtering
-Tool and container  
-Tool: fastp 1.3.3  
-Default image: docker://staphb/fastp:1.3.3    
+###### Read filtering    
+Tool and container    
+Tool: fastp 1.3.3    
+Default image: docker://staphb/fastp:1.3.3      
 
 ```
 fastp \
@@ -56,10 +56,10 @@ fastp \
 --html SAMPLE.fastp.html
 ```
 
-Host reference index and read alignment against reference    
-Tool and container  
-Bowtie2 2.5.5  
-Default image: docker://staphb/bowtie2:2.5.5  
+###### Host reference index and read alignment against reference      
+Tool and container    
+Bowtie2 2.5.5    
+Default image: docker://staphb/bowtie2:2.5.5    
 
 ```
 bowtie2-build \
@@ -78,19 +78,19 @@ bowtie2 \
 2> SAMPLE.host.bowtie2.log \
 | gzip -1 -c > SAMPLE.host.sam.gz
 ```
-Host decontamination
-Tool and container  
-SAMtools 1.23  
-Default image: docker://staphb/samtools:1.23  
+###### Host decontamination  
+Tool and container    
+SAMtools 1.23    
+Default image: docker://staphb/samtools:1.23    
 
 ```
 samtools view -f 12 -F 2304
 ```
 
-Metagenome assembly    
-Tool and container       
-MEGAHIT 1.2.9    
-Default image: docker://quay.io/biocontainers/megahit:1.2.9--h8b12597_0     
+###### Metagenome assembly      
+Tool and container         
+MEGAHIT 1.2.9      
+Default image: docker://quay.io/biocontainers/megahit:1.2.9--h8b12597_0       
 
 ```
 megahit \
@@ -103,10 +103,10 @@ megahit \
 -o SAMPLE.megahit_out
 ``` 
 
-Contig filtering
-Tool and container    
-SeqKit 2.13.0    
-Default image: docker://staphb/seqkit:2.13.0    
+###### Contig filtering  
+Tool and container      
+SeqKit 2.13.0      
+Default image: docker://staphb/seqkit:2.13.0      
 
 ```
 seqkit seq \
@@ -115,10 +115,10 @@ seqkit seq \
 SAMPLE.final.contigs.fa \
 > SAMPLE.contigs.minLENGTH.fa
 ```
-Assembly QC    
-Tool and container    
-QUAST 5.3.0    
-Default image: docker://staphb/quast:5.3.0    
+###### Assembly QC      
+Tool and container      
+QUAST 5.3.0      
+Default image: docker://staphb/quast:5.3.0      
 
 ```
 quast.py \
