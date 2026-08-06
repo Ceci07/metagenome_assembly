@@ -141,7 +141,7 @@ If you use this workflow, plase cite the following tools appropiatly:
 - SeqKit: https://bioinf.shenwei.me/seqkit/  
 - QUAST: https://github.com/ablab/quast  
 - MultiQC: https://docs.seqera.io/multiqc
-- Nexflow: https://www.nextflow.io  
+- Nextflow: https://www.nextflow.io  
 - SingularityCE:  https://docs.sylabs.io
 - Apptainer: https://apptainer.org
 - StaPH-B container builds: https://github.com/StaPH-B/docker-builds
