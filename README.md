@@ -27,7 +27,6 @@ host_fasta: Host genome FASTA path (.fasta/.fa/.fna suffixes, gzip-compressed fi
 ###### Read QC    
 Tool and container    
 Tool: FastQC 0.12.1    
-Container parameter: container_fastqc    
 Default image: docker://staphb/fastqc:0.12.1   
 
 ```
