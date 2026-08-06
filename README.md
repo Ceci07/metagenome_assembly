@@ -132,7 +132,7 @@ SAMPLE.contigs.minLENGTH.fa \
 ```
 
 ###### Citations
-If you use this workflow, plase cite the following tools appropiatly:  
+If you use this pipeline, plase cite the following tools appropiatly:  
 - fastp: https://github.com/OpenGene/fastp  
 - FastQC: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/  
 - Bowtie2: https://github.com/BenLangmead/bowtie2  
