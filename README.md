@@ -1,10 +1,10 @@
 # Metagenome assembly pipeline
 
 ### Requierements
-Nextflow >=24.10.0 with Java. 
-Singularity/Appteiner.
-Python 3.
-Input FASTQ and host-reference files visible from the compute nodes.
+Nextflow >=24.10.0 with Java.   
+Singularity/Appteiner.  
+Python 3.  
+Input FASTQ and host-reference files visible from the compute nodes.  
 
 ### Minimal local execution
 ```
