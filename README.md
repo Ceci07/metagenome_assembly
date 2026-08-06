@@ -123,8 +123,8 @@ Default image: docker://staphb/quast:5.3.0
 ```
 quast.py \
 SAMPLE.final.contigs.fa \
-SAMPLE.contigs.min1000.fa \
---labels all_contigs,min1000 \
+SAMPLE.contigs.minLENGTH.fa \
+--labels all_contigs,minLENGTH \
 --threads <cpus> \
 --min-contig 500 \
 --contig-thresholds 0,500,1000,1500,5000,10000,25000,50000 \
