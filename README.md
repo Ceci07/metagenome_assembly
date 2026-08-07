@@ -13,6 +13,8 @@ nextflow run main.nf \
 --input samplesheet.csv \
 --outdir results 
 ```
+Use -c to add a configuration file to run the pipeline in your setting.  
+
 #### Sample sheet
 Relative paths to FASTQ samples and host reference FASTA are resolved in the sample sheet.    
 The workflow accepts a comma-separated CSV supplied through --input.    
